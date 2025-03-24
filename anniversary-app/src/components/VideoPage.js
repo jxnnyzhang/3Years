@@ -15,7 +15,7 @@ const VideoPage = () => {
   const containerStyle = {
     position: 'relative',
     width: '400px',      // Desired container width
-    height: '600px',     // 16:9 container (800x450)
+    height: '650px',     // 16:9 container (800x450)
     overflow: 'hidden',
     border: '1px solid #dda0dd',
     borderRadius: '6px',
@@ -31,7 +31,7 @@ const VideoPage = () => {
     position: 'absolute',
     top: '50%',
     left: '50%',
-    width: '330%',     // Scale factor—adjust as needed
+    width: '328%',     // Scale factor—adjust as needed
     height: '200%',    // Scale factor—adjust as needed
     transform: 'translate(-50%, -50%)'
   };
