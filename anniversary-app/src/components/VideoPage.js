@@ -14,7 +14,7 @@ const VideoPage = () => {
   // Set a fixed container that you want the video to fill.
   const containerStyle = {
     position: 'relative',
-    width: '400px',      // Desired container width
+    width: '370px',      // Desired container width
     height: '600px',     // 16:9 container (800x450)
     overflow: 'hidden',
     border: '1px solid #dda0dd',
@@ -29,9 +29,9 @@ const VideoPage = () => {
    */
   const iframeWrapperStyle = {
     position: 'absolute',
-    top: '50%',
+    top: '45%',
     left: '50%',
-    width: '325%',     // Scale factor—adjust as needed
+    width: '328%',     // Scale factor—adjust as needed
     height: '200%',    // Scale factor—adjust as needed
     transform: 'translate(-50%, -50%)'
   };
